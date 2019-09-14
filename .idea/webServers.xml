@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3e422c2d-2db8-4b9c-923c-33427fa5f046" name="zheng" url="http://59.72.63.9">
+        <fileTransfer host="59.72.63.9" port="8839" rootFolder="/data/zyx" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="8839" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
