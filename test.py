@@ -1,8 +1,19 @@
-import numpy as np
-x=3+np.sqrt(13)
-x=x/2
-a=(x**6+2*x**5+3*x**4+4*x**3+3*x**2+2*x+1)/(x**5+x**3+x)
-print(a)
-a=a-6
-for i in range(200):
-    print(i*a,i)
+import argparse
+parse=argparse.ArgumentParser()
+parse.add_argument(
+    "--add1",
+    default=10,
+    help="the add1",
+    type=int
+)
+parse.add_argument(
+    "--add2",
+    default=10,
+    help="the add2",
+    type=int
+)
+args=parse.parse_args()
+if __name__ == '__main__':
+    a=args.add1
+    b=args.add2
+    print(a*b)
